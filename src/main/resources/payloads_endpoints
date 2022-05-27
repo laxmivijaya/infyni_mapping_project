@@ -1,0 +1,155 @@
+
+http://localhost:8080/user
+[
+    {
+        "firstName": "vijay",
+        "lastName": "rathod",
+        "age": 28,
+        "userLoginDetails": {
+            "userName": "rathorvijay529",
+            "password": "Jayshriram@1",
+            "emailId": "rathorvijay529@gmail.com"
+        },
+        "roles": [
+            {
+                "name": "ADMIN",
+                "description": "Admin description",
+                "permissions": [
+                    {
+                        "name": "USER:CREATE",
+                        "description": "user create"
+                    },
+                    {
+                        "name": "USER:UPDATE",
+                        "description": "user update"
+                    }
+                ]
+            },
+            {
+                "name": "USER",
+                "description": "user description",
+                "permissions": [
+                    {
+                        "name": "USER:DELETE",
+                        "description": "user delete"
+                    },
+                    {
+                        "name": "USER:FETCH",
+                        "description": "user select"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "firstName": "vijay1",
+        "lastName": "rathod1",
+        "age": 28,
+        "userLoginDetails": {
+            "userName": "rathorvijay5291",
+            "password": "Jayshriram@11",
+            "emailId": "rathorvijay5291@gmail.com"
+        },
+        "roles": [
+            {
+                "name": "ADMIN1",
+                "description": "Admin1 description",
+                "permissions": [
+                    {
+                        "name": "USER1:CREATE",
+                        "description": "user1 create"
+                    },
+                    {
+                        "name": "USER1:UPDATE",
+                        "description": "user1 update"
+                    }
+                ]
+            },
+            {
+                "name": "USER1",
+                "description": "user1 description",
+                "permissions": [
+                    {
+                        "name": "USER1:DELETE",
+                        "description": "user1 delete"
+                    },
+                    {
+                        "name": "USER1:FETCH",
+                        "description": "user1 select"
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+http://localhost:8080/country
+
+{
+    "name": "India23",
+    "states": [
+        {
+            "name": "Madhya-Prades23h"
+        },
+        {
+            "name": "Karanataka54"
+        },
+        {
+            "name": "Uttar Pradesh434"
+        }
+    ]
+}
+
+http://localhost:8080/student
+
+{
+    "name": "vijay",
+    "age": 28,
+    "detail": {
+        "department": "CSE",
+        "mark": "234543",
+        "section": "A"
+    }
+}
+
+
+http://localhost:8080/employee
+
+{
+    "name": "vijay",
+    "salary": 10000.00,
+    "address": {
+        "pinCode": 12345,
+        "streetName": "HSR",
+        "country": "India"
+    }
+}
+
+http://localhost:8080/library
+
+{
+    "name": "XYZ Library",
+    "books": [
+        {
+            "name": "Bagvat Geeta"
+        },
+        {
+            "name": "Math Book"
+        },
+        {
+            "name": "RD SHarma"
+        }
+    ]
+}
+
+http://localhost:8080/manufacturer
+
+{
+    "name": "vijay",
+    "code": "PP12345",
+    "product": {
+        "name": "OIL",
+        "price": 1500.0
+
+    }
+}
